@@ -22,7 +22,18 @@ $lunghezza = strlen($lunghezza_stringa);
  ?>   
    
 <h2> La lunghezza della stringa <?php echo $lunghezza_stringa?> 
- è <?php echo $lunghezza?> </h2>    
+ è: <?php echo $lunghezza;?>  </h2>  
+
+
+ <?php 
+//badword
+$badword = $_GET['badword'];
+$replaced = str_replace('forza','***', $badword)
+?>
+<h3>Che la <?php echo $badword?> sia con te!</h3>
+<h3>Che la <?php echo $replaced?> sia con te! </h3>
+
+
     
 </body>
 </html>

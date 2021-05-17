@@ -7,6 +7,19 @@
     <title>php-badwords</title>
 </head>
 <body>
+
+<?php 
+//variabile
+$name ='General Kenobi'
+
+
+?>
     
+
+
+    <h1>Hello THERE!!!</h1>
+    <h2>
+        <?php echo $name;?>
+    </h2>
 </body>
 </html>

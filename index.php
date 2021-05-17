@@ -10,16 +10,19 @@
 
 <?php 
 //variabile
-$name ='General Kenobi'
-
-
+$text ='General Kenobi'
 ?>
+    <h1>Hello THERE!!! <?php echo $text;?> </h1>
+
+
+ <?php
+ 
+ $lunghezza_stringa = 'Illimitato Potere';
+$lunghezza = strlen($lunghezza_stringa);
+ ?>   
+   
+<h2> La lunghezza della stringa <?php echo $lunghezza_stringa?> 
+ è <?php echo $lunghezza?> </h2>    
     
-
-
-    <h1>Hello THERE!!!</h1>
-    <h2>
-        <?php echo $name;?>
-    </h2>
 </body>
 </html>
